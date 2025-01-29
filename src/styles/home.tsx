@@ -5,6 +5,8 @@ export const Container = styled.div`
   overflow-y: hidden;
 
   .banner {
+    width: 100vw;
+
     img {
       width: 100%;
       height: auto;

@@ -5,7 +5,6 @@ import LogoCaprioli from "../../assets/Logo.svg";
 const Header = () => {
 
   return (
-    <>
       <C.Container>
         <header>
             <div className="header-logo">
@@ -27,7 +26,6 @@ const Header = () => {
             </div>
         </header>
       </C.Container>
-    </>
   );
 };
 

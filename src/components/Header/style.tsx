@@ -5,10 +5,10 @@ export const Container = styled.div`
     overflow-y: hidden;
 
 header {
-    width: 100%;
+    width: 100vw;
     background-color: #ffffff;
-    padding: 1em 100px;
-    height: 80px;
+    padding: 10px 200px;
+    height: 60px;
     display: flex;
     justify-content: space-between;
 
@@ -24,7 +24,7 @@ header {
         }
 
         h1 {
-            font-size: 2em;
+            font-size: 20px;
             font-family: "Abyssinica SIL";
             color: #000000;
         }
@@ -42,7 +42,7 @@ header {
             gap: 20px;
 
             li {
-                font-size: 1.7em;
+                font-size: 17px;
                 color: #000000;
                 cursor: pointer;
             }
