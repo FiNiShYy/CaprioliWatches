@@ -39,4 +39,24 @@ export const Container = styled.div`
     }
   }
 
+  .section-favorito {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .favorito-images {
+      display: flex;
+      flex-direction: row;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 300px;
+      }
+    }
+  }
+
 `

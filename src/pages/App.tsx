@@ -7,6 +7,11 @@ import Lock from "../assets/Lock.svg";
 import chatMessage from "../assets/Chat Message.svg";
 import magneticCard from "../assets/Magnetic Card.svg";
 import Truck from "../assets/Truck.svg";
+import Bulova from "../assets/BulovaPC.png";
+import Citizen from "../assets/CitizenPC.png";
+import Seiko from "../assets/SeikoPC.png";
+import Victorinox from "../assets/VictoriNoxPC.png";
+
 
 
 function HomeApp() {
@@ -17,6 +22,7 @@ function HomeApp() {
           <div className="banner">
             <img src={bannerInicial} alt=""/>
           </div>
+
           <div className="info-banner">
             <div className="info-banner-content">
               <img src={magneticCard} alt=""/>
@@ -33,6 +39,16 @@ function HomeApp() {
             <div className="info-banner-content">
               <img src={Lock} alt=""/>
               <p>Compra 100% <br/>segura</p>
+            </div>
+          </div>
+
+          <div className="section-favorito">
+            <p>JÁ TEM UM FAVORITO?</p>
+            <div className="favorito-images">
+              <img src={Bulova} alt=""/>
+              <img src={Citizen} alt=""/>
+              <img src={Seiko} alt=""/>
+              <img src={Victorinox} alt=""/>
             </div>
           </div>
         <Footer/>
